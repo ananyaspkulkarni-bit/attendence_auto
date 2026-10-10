@@ -1,0 +1,59 @@
+# Python generated files & build artifacts
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Secrets & environment files
+.env
+.env.*
+!.env.example
+
+# Local attendance data
+data/*
+!data/.gitkeep
+
+# Generated reports & local outputs
+reports/*
+!reports/.gitkeep
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# IDE & operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
